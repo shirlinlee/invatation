@@ -113,15 +113,19 @@ body {
     transform: rotateY(0deg) translate(-50%, 0);
     z-index: 2;
     background-color: #89101b;
-    
-   
-}
-.flip-item-front.show{
     background: -webkit-linear-gradient(left, #f4cf8c, #cca349);
     background: -o-linear-gradient(right, #f4cf8c, #cca349);
     background: -moz-linear-gradient(right, #f4cf8c, #cca349);
     background: linear-gradient(to right, #f4cf8c, #cca349);
-} 
+    
+   
+}
+/* .flip-item-front.show{
+    background: -webkit-linear-gradient(left, #f4cf8c, #cca349);
+    background: -o-linear-gradient(right, #f4cf8c, #cca349);
+    background: -moz-linear-gradient(right, #f4cf8c, #cca349);
+    background: linear-gradient(to right, #f4cf8c, #cca349);
+}  */
 
 
 .flip-item-front.show .middle {
