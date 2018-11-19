@@ -1,6 +1,7 @@
 $(function() {
     fixItem();
-    $(window).on('load resize', function() {
+
+    $(window).on('ready resize', function() {
         $('.alert, .flip-item-front').addClass('show');
         fixItem();
         setTimeout(function(){
