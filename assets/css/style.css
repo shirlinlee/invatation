@@ -139,6 +139,7 @@ body {
     z-index: 1;
     background-color: #89101b;
     color: #cca349;
+    opacity: 0;
 }
 
 .flip-item-back .flip-item-text {
@@ -156,6 +157,8 @@ body {
 .flip-box.go2 .flip-item-back {
     z-index: 2;
     transform: rotateY(0deg) translate(-50%, 0);
+    opacity: 1;
+    
 }
 
 .middle {
