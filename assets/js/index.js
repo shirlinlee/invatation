@@ -1,7 +1,5 @@
 $(function() {
     fixItem();
-    
-
     $(window).on('load resize', function() {
         $('.alert, .flip-item-front').addClass('show');
         fixItem();
