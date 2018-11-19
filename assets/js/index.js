@@ -1,20 +1,15 @@
 $(function() {
     fixItem();
+    
 
-    $(window).on('load',function(){
+    $(window).on('load resize', function() {
         $('.alert, .flip-item-front').addClass('show');
+        fixItem();
         setTimeout(function(){
+            fixItem();
             $('.alert').removeClass('show');
         },4000);
     })
-
-    // $(window).on('load resize', function() {
-        
-    //     fixItem();
-    //     setTimeout(function(){
-    //         $('.alert').removeClass('show');
-    //     },4000);
-    // })
 
     $('.alert').on('click',  function(e) {
         $(this).fadeOut();
